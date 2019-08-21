@@ -1,0 +1,13 @@
+.port-button {
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding: 10px;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  &:hover {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+  }
+}
+

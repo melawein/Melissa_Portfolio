@@ -7,6 +7,17 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.text-header {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
 .intro {
   align-items: center;
+  height: 75vh;
+  background-image: asset-url("portfoliopic.jpg");
+  background-size: cover;
+  padding-top: 20px;
+  padding-left: 65px;
+  padding-bottom: 20px;
 }
