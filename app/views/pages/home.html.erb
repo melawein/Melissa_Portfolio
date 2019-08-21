@@ -1,9 +1,12 @@
 <div class="background-main">
 
-  <div class="intro">
+  <div id="intro">
 
-    <h1 class="main-header">i am a web developer.</h1>
-    <h3 class="text text-header">good design is of the utmost importance.</h3>
+    <div id="intro-header">
+
+      <h1 class="main-header">i am a web developer.</h1>
+      <h3 class="text text-header">good design is of the utmost importance.</h3>
+    </div>
 
     <%= link_to "my portfolio", "#", class: "port-button" %>
   </div>
@@ -11,6 +14,7 @@
 
   <div id="about-me">
     <h1> about me</h1>
+    <%= render 'shared/aboutme' %>
   </div>
 
     <div id="resume">

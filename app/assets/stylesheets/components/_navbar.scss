@@ -6,8 +6,11 @@
   }
 }
 
-.navbar-nav {
+.navbar-collapse {
+  display:flex;
+  width: 35%;
   justify-content: space-between;
+  margin-right: 0;
 }
 
 .navbar-portfolio .navbar-collapse {
@@ -38,3 +41,4 @@
   text-decoration: none;
 
 }
+
