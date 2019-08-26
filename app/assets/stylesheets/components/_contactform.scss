@@ -3,4 +3,45 @@
   height: 500px;
   align-items: center;
   text-align: center;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  background-color: #F4F4F4;
+  justify-content: center;
+}
+
+.form-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  h2{
+  }
+
+}
+
+#button-send {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border: none;
+  padding: 10px !important;
+}
+
+input {
+  border: none !important;
+  background-color: #F4F4F4 !important;
+
+}
+
+#mc_embed_signup {
+  background-color: #E7E7E7 !important;
+  align-items: center !important;
+  padding: 5px !important;
+  justify-content: center;
+  display: flex;
+  h2 {
+    font-weight: normal !important;
+  }
+  label {
+    padding-bottom: 5px;
+  }
 }
