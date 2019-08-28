@@ -8,7 +8,7 @@
       <h3 class="text text-header">good design is of the utmost importance.</h3>
     </div>
 
-    <%= link_to "my portfolio", "#", class: "port-button" %>
+    <%# link_to "my portfolio", "#", class: "port-button" %>
   </div>
 
 
@@ -20,6 +20,34 @@
 
   <div id="projects">
     <h1> projects</h1>
+    <div class="project-names">
+
+     <%# link_to 'https://mels-cocktails.herokuapp.com/cocktails', target: :_blank do  %>
+      <%# image_tag 'glass', class: 'glass-logo' %>
+      <%# end %>
+
+      <%= image_tag 'petpal', id: 'petpal-logo' %>
+
+      <!-- The Modal -->
+      <div id="myModal-pet" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content-pet">
+          <span class="close">&times;</span>
+          <h3>Petpal</h3>
+          <p>This website was created during the 9-week bootcamo with Le Wagon in our 6th week.</p>
+          <p>Skills used: Ruby on Rails, HTML, CSS & Javascript</p>
+          <%= link_to 'https://petpalz.herokuapp.com/', target: :_blank do  %>
+              <p class="website-btn btn btn-primary-sm">website</p>
+          <% end %>
+        </div>
+
+      </div>
+
+      <%= link_to 'http://www.life-line.club/', target: :_blank do  %>
+      <%= image_tag 'Lifeline', class: 'lifeline-logo' %>
+      <% end %>
+    </div>
   </div>
 
   <div id="contact">
@@ -33,3 +61,33 @@
   </div> -->
 
 </div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal-pet");
+
+// Get the button that opens the modal
+var btn = document.getElementById("petpal-logo");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>

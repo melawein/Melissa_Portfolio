@@ -3,8 +3,10 @@
   background: white;
   padding-right: 50px;
   padding-left: 50px;
-  // position: sticky;
+  position: fixed;
   height: 60px;
+  width: 100%;
+  margin-bottom: 10px;
   &:active {
   }
 }
@@ -45,4 +47,3 @@
   text-decoration: none;
 
 }
-

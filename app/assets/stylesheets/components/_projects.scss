@@ -1,7 +1,69 @@
 #projects {
   background: white;
+  height: calc(90vh - 60px) ;
   h1 {
   margin: 0;
     background: white;
   }
+}
+
+.website-btn {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+  margin: 0 auto;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+.project-names {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lifeline-logo {
+  height: 200px;
+  width: 200px;
+}
+
+#petpal-logo {
+ height: 200px;
+  width: 200px;
+}
+
+.modal-content-pet {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  height: 30%;
+  font-family: 'Montserrat', sans-serif;
+
+  h3 {
+    text-align: center;
+  }
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
