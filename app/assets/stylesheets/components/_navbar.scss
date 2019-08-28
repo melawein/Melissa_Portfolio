@@ -3,17 +3,25 @@
   background: white;
   padding-right: 50px;
   padding-left: 50px;
-  position: fixed;
+  // position: fixed;
   height: 60px;
   width: 100%;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
+
+}
+.navbar {
+  position: sticky;
+            overflow: hidden;
+            top: 0;
+            width: 100%;
+
 }
 
 
 .navbar-collapse {
   display:flex;
   width: 30%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-right: 0;
 }
 
@@ -31,11 +39,12 @@
 }
 
 .nav-item a{
-  color: grey;
+  color: #5F5AA2;
   justify-content: space-between;
-  &:active {
-    color: grey;
+  &:hover {
+    color: #5F5AA2;
     justify-content: space-between;
+    text-decoration: none;
   }
 }
 
@@ -45,3 +54,19 @@
   text-decoration: none;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

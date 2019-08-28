@@ -7,19 +7,22 @@
   <%= csrf_meta_tags %>
   <%= action_cable_meta_tag %>
   <%= stylesheet_link_tag 'application', media: 'all' %>
- <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
-   <%= favicon_link_tag asset_path('big_MW.png') %>
+  <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+  <%= favicon_link_tag asset_path('big_MW.png') %>
 </head>
 <body>
+  <div class="main-navbar">
   <%= render 'shared/navbar' %>
+  </div>
   <div class="content">
     <%= yield %>
   </div>
   <%= javascript_include_tag 'application' %>
   <%= javascript_pack_tag 'application' %>
-
-  <%= render 'shared/footer' %>
-<!-- <script src="jquery-3.4.1.min.js"></script> -->
+  <div class="footer">
+    <%= render 'shared/footer' %>
+  </div>
+  <!-- <script src="jquery-3.4.1.min.js"></script> -->
 
 </body>
 </html>

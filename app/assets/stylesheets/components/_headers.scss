@@ -14,7 +14,7 @@
 
 #intro {
   align-items: center;
-  height: 85vh;
+  height: calc(100vh - 60px);
   background-image: asset-url("portfoliopic.jpg");
   background-size: cover;
   padding-top: 20px;
@@ -24,5 +24,5 @@
 
 
 #intro-header {
-  margin-top: 60px;
+  // margin-top: 60px;
 }

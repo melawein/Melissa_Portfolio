@@ -4,18 +4,75 @@
   h1 {
   margin: 0;
     background: white;
+    color: #5F5AA2;
   }
+}
+
+.project-background {
+  margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+}
+
+.project-names {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.project1 {
+  display: flex;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project-header {
+    border-bottom: 4px solid black;
+    width: 17%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.skills-header {
+  border-bottom: 4px solid black;
+    width: 17%;
+    text-align: center;
+    align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
 }
 
 .website-btn {
   text-decoration: none;
   color: black;
-  border: 1px solid black;
-  border-radius: 7px;
-  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 8px;
   width: 70px;
   text-align: center;
   margin: 0 auto;
+  background: linear-gradient(178deg, #5F5AA2 0%, #E1E1E1 100%);
+  color: white;
+  align-items: center;
+  margin-bottom: 8px;
   &:hover {
     text-decoration: none;
     color: black;
@@ -30,15 +87,6 @@
   justify-content: space-evenly;
 }
 
-.lifeline-logo {
-  height: 200px;
-  width: 200px;
-}
-
-#petpal-logo {
- height: 200px;
-  width: 200px;
-}
 
 .modal-content-pet {
   background-color: #fefefe;

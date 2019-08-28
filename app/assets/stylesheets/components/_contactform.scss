@@ -1,7 +1,10 @@
 
 #contact {
   background-color: white;
-  height: 90vh;
+  height: 60%;
+  h1 {
+    color: #5F5AA2;
+  }
 }
 
 .contact-form {
@@ -35,7 +38,7 @@
 
 input {
   border: none !important;
-  // background-color: #F4F4F4 !important;
+  // background-color: grey !important;
 
 }
 
@@ -62,7 +65,7 @@ input {
 
 
 .form-inputs {
-  background-color: white;
+  // background-color: grey;
 
   border-radius: 5px;
 }

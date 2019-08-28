@@ -6,8 +6,19 @@
 }
 
 #about-me {
-  padding-top: 20px;
-  padding-left: 65px;
-  padding-bottom: 20px;
+  // padding-top: 20px;
+  // padding-left: 65px;
+  // padding-bottom: 20px;
   height: 90vh;
+  h1 {
+    color: #5F5AA2;
+  }
+}
+
+.header-me {
+  border-bottom: 4px solid black;
+    width: 17%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
