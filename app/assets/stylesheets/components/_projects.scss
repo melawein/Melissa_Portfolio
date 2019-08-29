@@ -88,30 +88,7 @@
 }
 
 
-.modal-content-pet {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 40%;
-  height: 30%;
-  font-family: 'Montserrat', sans-serif;
-
-  h3 {
-    text-align: center;
-  }
-}
-
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+.upcoming {
+  text-align: center;
+  padding-bottom: 20px;
 }

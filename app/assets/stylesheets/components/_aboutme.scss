@@ -1,8 +1,13 @@
+.about-me-header {
+  height: 100vh;
+}
+
 .about-description {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   // text-align: center;
   padding: 10px;
+  width: 65%;
 }
 
 #about-me {
@@ -17,8 +22,25 @@
 
 .header-me {
   border-bottom: 4px solid black;
-    width: 17%;
+    width: 25%;
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+.elephant {
+  height: 500px;
+  width: 375px;
+  padding-left: 30px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-about {
+  padding: 20px 20px;
 }

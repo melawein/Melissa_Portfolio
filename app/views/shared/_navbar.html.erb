@@ -1,5 +1,5 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-portfolio">
-  <%= link_to "MW", "/", class: "navbar-brand text" %>
+<div class="navbar navbar-expand-sm navbar-light navbar-portfolio" id="navbar">
+  <%= link_to "MW", "/", class: "navbar-brand text logo" %>
     <%# image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
 
 
@@ -17,10 +17,10 @@
         <%= link_to "projects", projects_path, class: "nav-link text s--scroll-to-projects" %>
       </span>
       <span class="nav-item">
-        <%= link_to "contact", :anchor => "contact", class: "nav-link text" %>
+        <%= link_to "resume", resume_path, class: "nav-link text js--scroll-to-contacts" %>
       </span>
       <span class="nav-item">
-        <%= link_to "resume", resume_path, class: "nav-link text js--scroll-to-contacts" %>
+        <%=mail_to "mel.weinstein31@gmail.com", "contact me", target: :_blank %>
       </span>
 
   </div>
@@ -54,4 +54,5 @@ $(document).ready(function(){
   });
 });
 </script>
+
 

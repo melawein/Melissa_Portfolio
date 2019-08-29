@@ -5,3 +5,6 @@ import "bootstrap";
 
 // import { smoothSroll } from '../components/smoothscroll';
 // smoothSroll();
+
+import { navSticky } from '../components/stickynav';
+navSticky();
