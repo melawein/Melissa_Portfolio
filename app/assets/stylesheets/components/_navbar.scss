@@ -5,16 +5,12 @@
   background: white;
   padding-right: 50px;
   padding-left: 50px;
-  // position: fixed;
   height: 60px;
   width: 100%;
-  // margin-bottom: 50px;
 
 }
 #navbar {
   overflow: hidden;
-  // top: 0;
-  // width: 100%;
 
 }
 
@@ -22,6 +18,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background: white;
 }
 
 .content {
@@ -54,6 +51,7 @@
   color: #5F5AA2;
   justify-content: space-evenly;
   text-align: center;
+  align-items: center;
 
   &:hover {
     color: #5F5AA2;
