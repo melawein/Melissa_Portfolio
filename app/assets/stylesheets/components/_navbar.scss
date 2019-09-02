@@ -13,8 +13,8 @@
 }
 #navbar {
   overflow: hidden;
-  top: 0;
-  width: 100%;
+  // top: 0;
+  // width: 100%;
 
 }
 
@@ -22,6 +22,10 @@
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.content {
+  padding-top: 60px;
 }
 
 
