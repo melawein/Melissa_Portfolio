@@ -1,29 +1,28 @@
-.about-me-home {
+#about-me-home {
   text-align: center;
   margin-top: 40px;
   align-items: center;
-
-
-
 }
 
 
 .aboutme-container {
   margin: 0 auto;
   height: 300px;
-  width:  45%;
+  width:  50%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
   align-items: center;
-  padding: 20px
+  padding: 20px;
+  margin-bottom: 40px;
+  h1 {
+    padding-top: 10px;
+  }
 
 }
 
 .aboutme-text {
-  padding-top: 8px;
+  padding-top: 20px;
 }
-
-
 
 
 .about-me-header {
@@ -72,3 +71,53 @@
 .container-about {
   padding: 20px 20px;
 }
+
+
+button {
+  z-index: 1;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: hsl(244, 29%, 49%);
+  a {
+    color: white;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+  animation: jelly 0.5s;
+  a {
+  text-decoration: none;
+  color: white;
+
+  }
+}
+
+@keyframes jelly {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+
+
+
+
+
+
+
+

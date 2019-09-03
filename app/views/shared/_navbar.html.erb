@@ -11,7 +11,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
       <span class="nav-item">
-        <%= link_to "about me", aboutme_path, class: "nav-link text js--scroll-to-about-me" %>
+        <%# link_to "about me", aboutme_path, class: "nav-link text js--scroll-to-about-me" %>
+       <%= link_to "about me", :anchor => "about-me-home", class: "nav-link text js--scroll-to-about-me" %>
+
+
       </span>
       <span class="nav-item">
         <%= link_to "projects", projects_path, class: "nav-link text s--scroll-to-projects" %>
@@ -20,7 +23,7 @@
         <%= link_to "resume", resume_path, class: "nav-link text js--scroll-to-contacts" %>
       </span>
       <span class="nav-item">
-        <%=mail_to "mel.weinstein31@gmail.com", "contact me", target: :_blank %>
+        <%=mail_to "mel.weinstein31@gmail.com", "contact", target: :_blank %>
       </span>
 
   </div>

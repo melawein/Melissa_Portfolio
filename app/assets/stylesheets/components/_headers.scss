@@ -15,7 +15,7 @@
 #intro {
   align-items: center;
   // height: calc(100vh - 60px);
-  height: 100vh;
+  height: 93vh;
 
   background-image: asset-url("portfoliopic.jpg");
   background-size: cover;
@@ -30,6 +30,5 @@
 }
 
 .background-main {
-  height: calc(100vh - 60px);
-  height: 100vh;
+  min-height: calc(100vh - 180px);
 }
