@@ -6,6 +6,9 @@
 
       <h1 class="main-header">web developer.</h1>
       <h3 class="text text-header">good design is of the utmost importance.</h3>
+ <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
+</div>
+<div class="below"></div>
     </div>
 
   </div>
@@ -35,3 +38,16 @@
     </div>
   </div>
 </div>
+
+
+
+<script>
+  // Bouncing arrow bottom of full screen
+// Different arrow choices from Font Awesome
+// Fades away as you scroll down
+
+$(window).scroll(function(){
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
+  //250 is fade pixels
+  });
+</script>
